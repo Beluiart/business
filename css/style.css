@@ -347,8 +347,28 @@ template {
   padding: 0 15px 0 15px;
 }
 
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'DM Sans';
+}
+
+.title {
+  font-family: 'DM Sans';
+  font-weight: 700;
+}
+
+.p {
+  font-family: 'Mulish';
+  font-weight: 400;
+}
+
 .header {
   margin: 0;
   padding: 0;
-  background-color: #000;
 }
