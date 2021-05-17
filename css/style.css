@@ -486,7 +486,7 @@ p {
 .banner__button {
   width: 211px;
   height: 60px;
-  margin-top: 37px;
+  margin-top: 7px;
   margin-right: 61px;
   font-family: DM Sans;
   font-style: normal;
@@ -571,6 +571,48 @@ p {
 }
 
 .subscrip__link {
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.531474px;
+  color: #5454d4;
+}
+
+.metrics__wrapper {
+  min-height: 600px;
+  background-image: url(../img/metrics/metrics.png);
+  background-repeat: no-repeat;
+  background-position-x: 667px;
+  background-position-y: -8px;
+}
+
+.metrics__description {
+  max-width: 556px;
+  padding-top: 173px;
+  padding-left: 57px;
+}
+
+.metrics__title {
+  max-width: 556px;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: 50px;
+  line-height: 57px;
+  letter-spacing: -1.56316px;
+  color: #19191b;
+}
+
+.metrics__descr {
+  max-width: 450px;
+  margin: 0;
+  margin-bottom: 28px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.625263px;
+}
+
+.metrics__link {
   font-size: 17px;
   line-height: 22px;
   letter-spacing: -0.531474px;
