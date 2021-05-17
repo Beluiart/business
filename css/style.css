@@ -449,3 +449,59 @@ a {
 .nav__item:not(:last-child) {
   padding-right: 45px;
 }
+
+.banner__wrapper {
+  min-height: 644px;
+  padding-top: 187px;
+  padding-left: 56px;
+  display: flow-root;
+  background-image: url(../img/banner/Hero.png);
+  background-repeat: no-repeat;
+  background-position-y: 95px;
+  background-position-x: 583px;
+}
+
+.banner__title {
+  max-width: 460px;
+  margin: 0;
+  margin-bottom: 31px;
+  padding: 0;
+  font-size: 80px;
+  line-height: 77px;
+  letter-spacing: -2.50105px;
+  color: #19191B;
+}
+
+.banner__descr {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  max-width: 460px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.625263px;
+  color: #696871;
+}
+
+.banner__button {
+  width: 211px;
+  height: 60px;
+  margin-top: 37px;
+  margin-right: 61px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  color: #fff;
+  background-color: #ff7143;
+  border: none;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.banner__button:hover {
+  background-color: #5454D4;
+}
