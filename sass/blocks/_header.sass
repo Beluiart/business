@@ -1,7 +1,49 @@
 .header
    margin: 0
    padding: 0
-   &__nav
-      
+   &__container
+      display: flex
+      align-items: center
+      justify-content: flex-end
+      background-image: url(../img/header/Logocolor.svg)
+      background-repeat: no-repeat
+      background-position-x: 73px
+      background-position-y: 47px
+   &__button
+      width: 211px
+      height: 60px
+      margin-top: 37px
+      margin-right: 61px
+      font-family: DM Sans
+      font-style: normal
+      font-weight: 700
+      font-size: 17px
+      line-height: 22px
+      color: #fff
+      background-color: #ff7143
+      border: none
+      border-radius: 10px
+      outline: none
+      cursor: pointer 
+      &:hover
+         background-color: #5454D4
+.nav
+   &__list
+      margin: 0
+      padding: 45px 154px 20px 0
+      display: flex
+      align-items: center
+      justify-content: space-between
+   &__link
+      font-size: 15px
+      line-height: 20px 
+      color: #696871
+      &:hover
+         color: #19191B
+         border-bottom: 1px solid #19191B
+   &__item:not(:last-child)    
+      padding-right: 45px
+           
+
 
 
