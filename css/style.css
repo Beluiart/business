@@ -618,3 +618,66 @@ p {
   letter-spacing: -0.531474px;
   color: #5454d4;
 }
+
+.about__wrapper {
+  padding: 0 20px 0 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about__card--left {
+  padding-top: 84px;
+  max-width: 307px;
+  text-align: center;
+  background-image: url(../img/about/card.png);
+  background-repeat: no-repeat;
+  background-position-x: 108px;
+  background-position-y: 21px;
+}
+
+.about__card--center {
+  padding-top: 84px;
+  max-width: 307px;
+  text-align: center;
+  background-image: url(../img/about/calendar.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 151px 97px;
+          background-size: 151px 97px;
+  background-position-x: 73px;
+}
+
+.about__card--right {
+  padding-top: 84px;
+  padding-right: 38px;
+  max-width: 307px;
+  text-align: center;
+  background-image: url(../img/about/camera.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 151px 97px;
+          background-size: 151px 97px;
+  background-position-x: 80px;
+}
+
+.about__title {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.750316px;
+  color: #19191b;
+}
+
+.about__descr {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.500211px;
+  color: #696871;
+}
