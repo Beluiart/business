@@ -681,3 +681,11 @@ p {
   letter-spacing: -0.500211px;
   color: #696871;
 }
+
+.price__title {
+  max-width: 520px;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.87579px;
+  color: #19191B;
+}
