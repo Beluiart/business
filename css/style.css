@@ -682,10 +682,115 @@ p {
   color: #696871;
 }
 
+.price {
+  min-height: 800px;
+}
+
 .price__title {
   max-width: 520px;
   font-size: 60px;
   line-height: 70px;
   letter-spacing: -1.87579px;
   color: #19191B;
+}
+
+.price__bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.showcase {
+  width: 330px;
+  min-height: 440px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  background-color: #f8f8f8;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.showcase__title {
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.562737px;
+  color: #696871;
+}
+
+.showcase__cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -1.03448px;
+}
+
+.showcase__month {
+  font-size: 30px;
+}
+
+.showcase__conditions {
+  margin: 0;
+  margin-top: 26px;
+  margin-bottom: 36px;
+  padding: 0;
+}
+
+.showcase__character {
+  padding: 0;
+  margin: 0;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: -0.531474px;
+  color: #696871;
+}
+
+.showcase__button {
+  width: 285px;
+  height: 60px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.531474px;
+  color: #5454d4;
+  background-color: #fff;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.showcase__button--active__title {
+  background-color: #000;
 }
